@@ -4,6 +4,7 @@
   "description": "demo",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -11,13 +12,14 @@
     "url": "git+https://github.com/scautank/crawler-demo.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "canye.wlc@gmail.com",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/scautank/crawler-demo/issues"
   },
   "homepage": "https://github.com/scautank/crawler-demo#readme",
   "dependencies": {
-    "crawler": "^1.0.5"
+    "crawler": "^1.0.5",
+    "fs-extra": "^3.0.1"
   }
 }
