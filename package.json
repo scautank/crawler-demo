@@ -1,0 +1,23 @@
+{
+  "name": "crawler-demo",
+  "version": "1.0.0",
+  "description": "demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scautank/crawler-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scautank/crawler-demo/issues"
+  },
+  "homepage": "https://github.com/scautank/crawler-demo#readme",
+  "dependencies": {
+    "crawler": "^1.0.5"
+  }
+}
