@@ -21,7 +21,7 @@ class Store {
             lists: this.lists
         };
 
-        fse.writeJson(filepath, data).then(() => {
+        fse.outputFile(filepath, JSON.stringify(data, null, 4)).then(() => {
             console.log(`${this.id} output data success.`);
         }).catch((err) => {
             console.log(err);
